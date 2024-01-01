@@ -1,0 +1,16 @@
+PODS:
+  - SimpleLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SimpleLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleLibrary: 56cb4e46ed8985fbb27c456baa0e8131652ea743
+
+PODFILE CHECKSUM: 84a6e0ee6768baabfa94e6ec6bb9f331f33705b4
+
+COCOAPODS: 1.12.1

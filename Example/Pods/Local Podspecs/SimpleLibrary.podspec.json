@@ -1,0 +1,27 @@
+{
+  "name": "SimpleLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Paramvir14/SimpleLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paramvir14": "purewalparamvir@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Paramvir14/SimpleLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SimpleLibrary/Classes/**/*",
+  "resource_bundles": {
+    "SimpleLibrary": [
+      "SimpleLibrary/Assets/RandomScreenshot.png"
+    ]
+  }
+}

@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import SimpleLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var logger = Logger()
+        logger.printLog()
+        
+        let frameworkBundle = Bundle(for: Logger.self)
+        let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("SimpleLibrary.bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+
+        let image = UIImage(named: "randomScreenshot.png", in: resourceBundle, compatibleWith: nil)
+        print(image)
+
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,6 @@
+framework module SimpleLibrary {
+  umbrella header "SimpleLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
